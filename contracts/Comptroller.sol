@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: BSD-3-Clause
 pragma solidity ^0.8.10;
 
-import "./CToken.sol";
-import "./ErrorReporter.sol";
-import "./PriceOracle.sol";
-import "./ComptrollerInterface.sol";
-import "./ComptrollerStorage.sol";
-import "./Unitroller.sol";
-import "./Governance/Comp.sol";
+import "https://github.com/LogETH/compound-protocol/blob/master/contracts/CToken.sol";
+import "https://github.com/LogETH/compound-protocol/blob/master/contracts/ErrorReporter.sol";
+import "https://github.com/LogETH/compound-protocol/blob/master/contracts/PriceOracle.sol";
+import "https://github.com/LogETH/compound-protocol/blob/master/contracts/ComptrollerInterface.sol";
+import "https://github.com/LogETH/compound-protocol/blob/master/contracts/ComptrollerStorage.sol";
+import "https://github.com/LogETH/compound-protocol/blob/master/contracts/Unitroller.sol";
+import "https://github.com/LogETH/compound-protocol/blob/master/contracts/Governance/Comp.sol";
 
 /**
  * @title Compound's Comptroller Contract
