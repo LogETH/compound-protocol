@@ -15,7 +15,7 @@ contract DAIOracleProxy {
 
         (,int price,,,) = DAIUSD.latestRoundData();
 
-        return (uint(price)*cDAI.exchangeRateCurrent())/10e6;
+        return (uint(price)*10e10;
     }
 
 }
